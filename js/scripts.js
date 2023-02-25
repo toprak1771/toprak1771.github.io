@@ -74,7 +74,7 @@ const prevSelect = () => {
 
 function send_handle(){
 
-    let num="+905459264927";
+    let num="+905324864329";
   
     let msg= "abc";
   
