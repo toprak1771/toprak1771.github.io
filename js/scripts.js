@@ -74,12 +74,13 @@ const prevSelect = () => {
 
 function send_handle(){
 
-    let num="+905324864329";
-  
+    let num="+905459264927";
+    let mail="toprak1771"
     let msg= "abc";
   
-      let name= "asd";
+    let name= "asd";
     
-    var win = window.open(`https://wa.me/${num}`, '_blank');
+    var win = window.open(`mailto:${mail}@gmail.com`);
+    //var win = window.open(`https://wa.me/${num}`, '_blank');
    // win.focus();
   }

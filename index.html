@@ -25,7 +25,10 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top"> (Sembol) S.... mali Müşavir</a>
+            <a class="navbar-brand" href="#page-top"> 
+                <img src="assets/img/logo.png" class="d-none d-lg-inline" />
+                <img src="assets/img/logo_black.png" class="d-inline d-lg-none" />
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -50,8 +53,8 @@
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 mb-5">Şirketimiz şu tarihde krulmuştur, istanbul'da inşaat,turiz..
                         alanlarında hizmet göstermektedir...</p>
-                    <a class="btn btn-primary btn-xl" href="#about">Hakkımızda</a>
-                    <a class="btn btn-success btn-xl btn-wp ms-3" onclick="send_handle()">Whatsapp Destek</a>
+                    <a class="btn btn-primary btn-xl" style="width: 10rem;" href="#about">Hakkımızda</a>
+                    <a class="btn btn-info btn-xl btn-mail ms-3 " onclick="send_handle()">Mail</a>
                 </div>
             </div>
         </div>
@@ -114,170 +117,213 @@
 
     <section class="container my-5" id="portfolio">
 
-        <div id="carouselExampleCaptions" class="carousel carousel-dark slide p-5" >
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide p-5">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
             </div>
-            <div class="carousel-inner text-center" >
+            <div class="carousel-inner text-center">
                 <div class="carousel-item active p-5">
-                <div class="px-5">
-                    <h2 class="fs-2 mb-5">Muhasebe ve Mali İşler Yönetimi</h2>
-                    <p class=" fs-6 crop-text">
-                    Muhasebe mesleği şirketler açısından oldukça önemlilik arz eden bir departmandır.
-                    Günümüz rekabet dünyasında şirketlerin 
-                    finansal tablo raporlanması ve mali politikalarının en hassas detaylarıyla tasniflendirilmesi 
-                    çok kritik öneme sahiptir.
-                    </p>
-                    <div>
-                        <a href="hizmetler.html#muhasebe" class="btn btn-sm mt-4 services-more"><span>Daha Fazla Bilgi</span></a>
-                    </div> 
+                    <div class="px-5">
+                        <h2 class="fs-2 mb-5">Muhasebe ve Mali İşler Yönetimi</h2>
+                        <hr class="divider" />
+                        <p class=" fs-6 crop-text">
+                            Muhasebe mesleği şirketler açısından oldukça önemlilik arz eden bir departmandır.
+                            Günümüz rekabet dünyasında şirketlerin
+                            finansal tablo raporlanması ve mali politikalarının en hassas detaylarıyla
+                            tasniflendirilmesi
+                            çok kritik öneme sahiptir.
+                        </p>
+                        <div>
+                            <a href="hizmetler.html#muhasebe" class="btn btn-sm mt-4 services-more"><span>Daha Fazla
+                                    Bilgi</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="px-5">
+                        <h2 class="fs-2 mb-5">E-DÖNÜŞÜM</h2>
+                        <hr class="divider" />
+                        <p class=" fs-6 crop-text">
+                            E-Fatura, E-Arşiv Fatura, E-Defter, ve E- İrsaliye gibi
+                            uygulamaların başvurusu ve kullanımı ile ilgili her türlü desteğin yanı sıra online
+                        </p>
+                        <div>
+                            <a href="hizmetler.html#edonusum" class="btn btn-sm mt-2 services-more"><span>Daha Fazla
+                                    Bilgi</span></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="px-5">
+                        <h2 class="fs-2 mb-5">İSTİSNA VE TEŞVİKLER</h2>
+                        <hr class="divider" />
+                        <p class=" fs-6 crop-text">
+                            Müşterilerimizin ilgili kanun ve mevzuatlar uyarınca Genç girişimci istisnası,
+                            yatırım istisnaları ve diğer istisna ve muafiyetler
+                            ile sosyal güvenlik kurumu ile ilgili teşvikler vb. tüm istisna ve teşviklerden
+                            yararlanmasını sağlıyoruz.
+                        </p>
+                        <div>
+                            <a href="hizmetler.html#istisna" class="btn btn-sm mt-2 services-more"><span>Daha Fazla
+                                    Bilgi</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="px-5">
+                        <h2 class="fs-2 mb-5">ŞİRKET KURULUŞLARI</h2>
+                        <hr class="divider" />
+                        <p class=" fs-6 crop-text">
+                            Şahıs şirket, Limited şirket, Anonim Şirket ve diğer tüm şirketlerin kuruluş işlemleri uzman
+                            ekibimizle mümkün olan en hızlı şekilde sonuçlandırılmaktadır.
+                            Hangi şirket türünü seçmeliyim ? Avantajları ve dezavantajları nelerdir?
+                        </p>
+                        <div>
+                            <a href="hizmetler.html#sirket" class="btn btn-sm mt-2 services-more"><span>Daha Fazla
+                                    Bilgi</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item p-5">
+                    <div class="px-5">
+                        <h2 class="fs-2 mb-5">GENÇ GİRİŞİMCİ DESTEĞİ</h2>
+                        <hr class="divider" />
+                        <p class=" fs-6 crop-text">
+                            Genç Girişimci Desteği nedir ?
+                            Genç girişimci desteğinden hangi firmalar faydalanabilir ?
+                            Genç girişimci desteği teşvik tutarı ne kadar ?
+                            Sigorta prim desteğinden kimler faydalanabilir ?
+                        </p>
+                        <div>
+                            <a href="hizmetler.html#genc" class="btn btn-sm mt-2 services-more"><span>Daha Fazla
+                                    Bilgi</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item p-5">
-                <div class="px-5">
-                    <h2 class="fs-2 mb-5">E-DÖNÜŞÜM</h2>
-                    <p class=" fs-6 crop-text">
-                        E-Fatura, E-Arşiv Fatura, E-Defter, ve E- İrsaliye gibi
-                        uygulamaların başvurusu ve kullanımı ile ilgili her türlü desteğin yanı sıra online
-                    </p>
-                    <div>
-                        <a href="hizmetler.html#edonusum" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></a>
-                    </div> 
-                </div>
-            
-            </div>
-            <div class="carousel-item p-5">
-                <div class="px-5">
-                    <h2 class="fs-2 mb-5">İSTİSNA VE TEŞVİKLER</h2>
-                    <p class=" fs-6 crop-text">
-                        Müşterilerimizin ilgili kanun ve mevzuatlar uyarınca Genç girişimci istisnası,
-                        yatırım istisnaları ve diğer istisna ve muafiyetler
-                        ile sosyal güvenlik kurumu ile ilgili teşvikler vb. tüm istisna ve teşviklerden yararlanmasını sağlıyoruz.
-                    </p>
-                    <div>
-                        <a href="hizmetler.html#istisna" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></a>
-                    </div> 
-                </div>
-            </div>
-            <div class="carousel-item p-5">
-                <div class="px-5">
-                    <h2 class="fs-2 mb-5">ŞİRKET KURULUŞLARI</h2>
-                    <p class=" fs-6 crop-text">
-                        Şahıs şirket, Limited şirket, Anonim Şirket ve diğer tüm şirketlerin kuruluş işlemleri uzman 
-                        ekibimizle mümkün olan en hızlı şekilde sonuçlandırılmaktadır.
-                                Hangi şirket türünü seçmeliyim ? Avantajları ve dezavantajları nelerdir?
-                    </p>
-                    <div>
-                        <a href="hizmetler.html#sirket" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></a>
-                    </div> 
-                </div>
-            </div>
-            <div class="carousel-item p-5">
-                <div class="px-5">
-                    <h2 class="fs-2 mb-5">GENÇ GİRİŞİMCİ DESTEĞİ</h2>
-                    <p class=" fs-6 crop-text">
-                        Genç Girişimci Desteği nedir ?
-                                Genç girişimci desteğinden hangi firmalar faydalanabilir ?                                              
-                                Genç girişimci desteği teşvik tutarı ne kadar ?
-                                Sigorta prim desteğinden kimler faydalanabilir ?
-                    </p>
-                    <div>
-                        <a href="hizmetler.html#genc" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></a>
-                    </div> 
-                </div>
-            </div>
-            </div>
-            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
                 <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
                 <span class="visually-hidden ">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </section>
 
-    <hr class="hrnew hr-position">
+    <hr class="hrnew ">
 
-    <!-- Portfolio-->
-    <!-- <div class="d-flex flex-column">
-            <div class="d-flex flex-row offset-1 col-10">
-                <div class="col-12 col-sm-4 p-3">
-                    <div class="card services-container" >
-                        <div class="card-body">
-                          <h5 class="card-title fs-5">Muhasebe ve mali işler yönetimi</h5>
-                          <span class="card-text services-text fs-6">Muhasebe mesleği şirketler açısından oldukça önemlilik arz eden bir departmandır. Günümüz rekabet dünyasında şirketlerin finansal tablo raporlanması ve mali politikalarının en hassas detaylarıyla tasniflendirilmesi çok kritik öneme sahiptir.</span>
-                          <div>
-                            <button href="#" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></button>
-                          </div> 
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-4 p-3">
-                    <div class="card services-container" >
-                        <div class="card-body">
-                          <h5 class="card-title fs-5">E-DÖNÜŞÜM</h5>
-                          <span class="card-text services-text fs-6">E-Fatura, E-Arşiv Fatura, E-Defter, ve E- İrsaliye gibi  uygulamaların başvurusu ve kullanımı ile ilgili her türlü desteğin yanı sıra online</span>
-                          <div>
-                            <button href="#" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></button>
-                          </div> 
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-4 p-3">
-                    <div class="card services-container" >
-                        <div class="card-body">
-                          <h5 class="card-title fs-5">İSTİSNA VE TEŞVİKLER</h5>
-                          <span class="card-text services-text fs-6">Müşterilerimizin ilgili kanun ve mevzuatlar uyarınca Genç girişimci istisnası, yatırım istisnaları ve diğer istisna ve muafiyetler ile sosyal güvenlik kurumu ile ilgili teşvikler vb. tüm istisna ve teşviklerden yararlanmasını sağlıyoruz.</span>
-                          <div>
-                            <button href="#" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></button>
-                          </div>                
-                        </div>
-                      </div>
-                </div>
-            </div>
-            <div class="d-flex flex-row offset-1 col-10">
-                <div class="col-12 col-sm-4 p-3">
-                    <div class="card services-container" >
-                        <div class="card-body">
-                          <h5 class="card-title fs-5">ŞİRKET KURULUŞLARI</h5>
-                          <span class="card-text services-text fs-6">Şahıs şirketl, Limited şirket, Anonim Şirket ve diğer tüm şirketlerin kuruluş işlemleri uzman ekibimizle mümkün olan en hızlı şekilde sonuçlandırılmaktadır.
-                            Hangi şirket türünü seçmeliyim ? Avantajları ve dezavantajları nelerdir?
-                            </span>
-                            <div>
-                                <button href="#" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></button>
-                              </div> 
-                        </div>
-                      </div>
-                </div>
-                <div class="col-12 col-sm-4 p-3">
-                    <div class="card services-container" >
-                        <div class="card-body">
-                          <h5 class="card-title fs-5">GENÇ GİRİŞİMCİ DESTEĞİ</h5>
-                          <span class="card-text services-text fs-6">Genç Girişimci Desteği nedir ?
-                            Genç girişimci desteğinden hangi firmalar faydalanabilir ?                                              
-                            Genç girişimci desteği teşvik tutarı ne kadar ?
-                            Sigorta prim desteğinden kimler faydalanabilir ?</span>
-                            <div>
-                                <button href="#" class="btn btn-sm mt-2 services-more"><span>Daha Fazla Bilgi</span></button>
-                              </div> 
-                        </div>
-                      </div>
-                </div>
-                
-            </div>
-        </div> -->
-
-    <!-- <hr class="hrnew hr-position"> -->
-
-    <!-- Contact-->
-    <section class="container" id="contact">
+    <section class="container my-5">
         <div class="row justify-content-center align-items-center">
+            <div class="col-12 text-center">
+                <h4>Faydalı linkler</h4>
+                <hr class="divider" />
+                <div class="row mt-3 mb-3">
+                    <div class="col-12 col-sm-3 text-center">
+                        <div class="card" style="width: 18rem;height: 10rem;">
+                            <a href="https://www.resmigazete.gov.tr/" target="_blank" class="text-black btn-light"
+                                style="text-decoration: none;">
+                                <div class="card-body">
+                                    <h6 class="card-title">T.C. Cumhurbaşkanlığı Resmi Gazete</h6>
+                                    <p class="card-text"><i class="bi fs-3 bi-newspaper ms-3 pe-4 text-services"></i>
+                                    </p>
+                                    <span>resmigazete.gov.tr</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 text-center">
+                        <div class="card" style="width: 18rem;height: 10rem;">
+                            <a href="https://detsis.gov.tr/" target="_blank" class="text-black btn-light"
+                                style="text-decoration: none;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Devlet Teşkilatı Merkezi Kayıt Sistemi</h6>
+                                    <p class="card-text"><i class="bi fs-3 bi-clipboard-data text-services"></i></p>
+                                    <span>detsis.gov.tr</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 text-center">
+                        <div class="card" style="width: 18rem;height: 10rem;">
+                            <a href="https://www.mevzuat.gov.tr/" target="_blank" class="text-black btn-light"
+                                style="text-decoration: none;">
+                                <div class="card-body">
+                                    <h6 class="card-title">T.C. Cumhurbaşkanlığı Mevzuat Bilgi Sistemi
+                                    </h6>
+                                    <p class="card-text"><i class="bi fs-3 bi-book text-services"></i></p>
+                                    <span>www.mevzuat.gov.tr</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 text-center">
+                        <div class="card" style="width: 18rem;height: 10rem;">
+                            <a href="https://www.devletarsivleri.gov.tr/" target="_blank" class="text-black btn-light"
+                                style="text-decoration: none;">
+                                <div class="card-body">
+                                    <h6 class="card-title">T.C. Cumhurbaşkanlığı Devlet Arşivleri Başkanlığı</h6>
+                                    <p class="card-text"><i class="bi fs-3 bi-paperclip text-services"></i></p>
+                                    <span>devletarsivleri.gov.tr</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <hr class="hrnew ">
+
+    <section class="container my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <h4 class="text-center">Döviz Kurları</h4>
+                <hr class="divider" />
+                <div id="kurlar"></div>
+                <script async src="https://dovizmix.com/dovizmix/js/dovizwidget.min.js" type="text/javascript"
+                    charset="utf-8"></script>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hrnew ">
+
+    <section class="container my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12">
+                <h4 class="text-center">Altın & BTC Fiyatları</h4>
+                <hr class="divider" />
+                <script
+                    type="text/javascript">var kurlist = ",CYA,YRA,TRA,1,1027,GRA,"; var genislik = 1280; var bbg = "FFFFFF"; var yr = "4D4D4D"; var zbg = "FFFFFF"; var br = "DEDEDE"; var by = ""</script>
+                <ins data-client-id="mb-095720171805"></ins><a id="bplnk" href="https://www.altinpiyasa.com">Altın
+                    Fiyatları</a>
+                <script type="text/javascript" src="https://www.altinpiyasa.com/eklenti/eklenti-min.js"></script>
+            </div>
+    </section>
+
+    <hr class="hrnew ">
+    <!-- Contact-->
+    <section class="container my-5" id="contact">
+        <div class="row justify-content-center align-items-center mt-2">
             <div class="col-12 col-md-6 text-center">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12198.447048620803!2d26.4105691!3d40.150931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e33eddf3c3ca82b!2sSerbest%20Muhasebeci%20Mali%20M%C3%BC%C5%9Favirler%20Odas%C4%B1!5e0!3m2!1str!2str!4v1674500661790!5m2!1str!2str"
@@ -289,7 +335,7 @@
                 <hr class="divider" />
                 <p class="text-muted text-center">Kuruluşunuz ve işiniz için bizimle iletişim kurun!</p>
                 <h4 class="text-center my-5">Gülay Güler Ataç</h4>
-                
+
                 <div class="row align-items-start">
                     <div class="col-12 col-sm-8 px-4 mb-3 text-center text-sm-start">
                         <p class="mb-2">
@@ -299,16 +345,19 @@
                             <span class="text-muted"> İstanbul </span>
                         </p>
                         <p class="mb-2">
-                            <i class="bi-envelope fs-4 mb-3 text-muted"></i>
-                             E-posta: 
-                             <span class="text-muted"> guleyguleratac@gmail.com </span>
+
+                            <i class="bi-envelope fs-4 text-muted"></i>
+                            Mail:
+                            <span class="text-muted"> guleyguleratac@gmail.com</span>
+                            <button class="btn btn-info btn-sm btn-mail ms-2" style="width: 75px !important;"
+                                onclick="send_handle()">Mail</button>
                         </p>
                     </div>
                     <div class="col-12 col-sm-4 text-center">
-                        <div class="text-center">Gülay Güler Ataç</div>    
+                        <div class="text-center">Gülay Güler Ataç</div>
                         <i class="bi-telephone fs-4 text-center mb-3 text-muted"></i>
                         <div>+1 (555) 123-4567</div>
-                        <button class="btn btn-success btn-sm mt-2 " onclick="send_handle()">Whatsapp Destek</button>
+
                     </div>
                 </div>
             </div>
@@ -318,44 +367,7 @@
 
     </section>
 
-    <!-- <section class="d-flex flex-row justify-content-center align-items-center" id="contact">
-            <div class="ms-5 col-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12198.447048620803!2d26.4105691!3d40.150931!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5e33eddf3c3ca82b!2sSerbest%20Muhasebeci%20Mali%20M%C3%BC%C5%9Favirler%20Odas%C4%B1!5e0!3m2!1str!2str!4v1674500661790!5m2!1str!2str" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="page-section col-8">
-                
-                <div class="container px-4 px-lg-5">
-                    <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-lg-8 col-xl-6 text-center">
-                            <h2 class="mt-0">İletişim!</h2>
-                            <hr class="divider" />
-                            <p class="text-muted mb-5">Kuruluşunuz ve işiniz için bizimle iletişim kurun!</p>
-                        </div>
-                    </div>
-                    <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                        <div class="col-lg-6">
-                        
-                                <div class="d-flex flex-row pt-2">
-                                    <p class="mb-2">Adres:</p>
-                                    <p class="text-muted ps-3">İstanbul</p>  
-                                </div>    
-                                <div class="d-flex flex-row pt-2">
-                                    <p class="mb-2">Mail:</p>
-                                    <p class="text-muted ps-3">guleyguleratac@gmail.com</p>  
-                                </div>                                                         
-                            </div>                                                                           
-                        </div>
-                    </div>
-                    <div class="row gx-4 gx-lg-5 justify-content-center">
-                        <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                            <div class="text-center pb-4">Gulay Guler Ataç</div>    
-                            <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                            <div>+1 (555) 123-4567</div>
-                        </div>
-                    </div>
-                </div>
-            </div>          
-        </section> -->
+
 
 
 

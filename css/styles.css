@@ -7787,6 +7787,7 @@ textarea.form-control-lg {
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
+  
 }
 
 .text-white-50 {
@@ -11535,14 +11536,15 @@ header.masthead h1, header.masthead .h1 {
   -webkit-box-orient: vertical;
 }
 
-.btn-wp{
+.btn-mail{
   /* background-color: green;
   color: #fff;
   border-radius: 7px;
   box-shadow: #000 5px solid; */
-  
+  color: #fff;
+  width: 10rem;
 }
-.btn-wp:hover{
+.btn-mail:hover{
   background-color: #fff;
-  color: var(--bs-success);
+  color: var(--bs-blue);
 }
